@@ -7,7 +7,7 @@
 ## FINAL PROJECT
 
 ## What is it:
-Interested in Spotify's song data and the relationship between pop music and time, my final project group chose music analysing song data from 1958-202 as our topic to carry out a data science project from beginning to end.
+Interested in Spotify's song data and the relationship between pop music and time, my group chose analysing song data from 1958-202 as our topic to for our data science project.
 This includes data collection, exploratory analysis, hypothesis/problem statement, and confirmatory analysis/prototype development.
 
 ## Data collection description:
