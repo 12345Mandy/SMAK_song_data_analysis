@@ -7,7 +7,8 @@
 ## FINAL PROJECT
 
 ## What is it:
-Our team chose song data (music) as our topic to carry out a data science project from beginning to end: data collection, exploratory analysis, hypothesis/problem statement, and confirmatory analysis/prototype development.
+Interested in Spotify's song data and the relationship between pop music and time, my final project group chose music analysing song data from 1958-202 as our topic to carry out a data science project from beginning to end.
+This includes data collection, exploratory analysis, hypothesis/problem statement, and confirmatory analysis/prototype development.
 
 ## Data collection description:
 We downloaded a dataset from kaggle that included all songs that appeared on the Billboard hot 100 charts since 1958. We chose to use 5 features of the kaggle dataset: date of the billboard chart, song name, artist, peak rank, and weeks on board. We queried the database using SQL to sort the songs from each year by their top rank on the chart and then their weeks on the chart. We chose the latest entry for the song in order to record the highest rank and weeks on board. We then chose the top 75 songs from each year, resulting in 4,725 popular songs. We made requests to the Spotify API to retrieve the spotify ID using the song and name from the original billboard dataset. The names of songs in the Billboard chart and on Spotify are not necessarily the same, so we compared the titles and artists of each song using a sequence matcher library in order to find songs from the API with titles that were similar enough. We then used these ids to retrieve the audio features from the API to get 4,669 data points (dropping the 56 songs that were not found on spotify). These were all added into a single dataframe that we downloaded as a .csv file.
