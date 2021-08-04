@@ -75,6 +75,9 @@ https://royalsocietypublishing.org/doi/10.1098/rsos.171274
 https://journals.sagepub.com/doi/full/10.1177/0305735617748205
 https://escholarship.org/content/qt96b901t6/qt96b901t6_noSplash_929973e502e1e8745c9f9a35fae5ce8e.pdf
 
+## Exploratory Analysis Presentation
+[Exploratory Analysis Presentation.pdf](https://github.com/12345Mandy/SMAK_song_data_analysis/files/6932118/Exploratory.Analysis.Presentation.pdf)
+
 
 ##Team Report/Division of Labor:
 We have been working on the project together over Zoom calls, and only splitting small parts of the work when some members can’t meet during a time period. 
